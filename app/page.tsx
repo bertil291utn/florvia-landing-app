@@ -36,8 +36,8 @@ export default function Home() {
           <div className={`nav-links ${menuOpen ? 'open' : ''}`} id="main-navigation">
             <a onClick={closeMenu} href="#problema">El problema</a>
             <a onClick={closeMenu} href="#plataforma">Plataforma</a>
-            <a onClick={closeMenu} href="#piloto">Piloto</a>
-            <a onClick={closeMenu} href="#formulario" className="nav-cta">Ver la demostración</a>
+            <a onClick={closeMenu} href="#primera-prueba">Primera prueba</a>
+            <a onClick={closeMenu} href="#formulario" className="nav-cta">Quiero participar</a>
           </div>
         </nav>
       </header>
@@ -49,7 +49,7 @@ export default function Home() {
             
             <h1>Tu postcosecha bajo control, <em>sin depender de Excel.</em></h1>
             <p className="lead">Recibe flor, controla calidad y disponibilidad, prepara pedidos y liquida a proveedores desde una sola plataforma.</p>
-            <div className="hero-actions"><a className="button button-dark" href="#formulario">Ver cómo participar en el piloto</a><a className="text-link" href="#plataforma">Conocer el alcance inicial</a></div>
+            <div className="hero-actions"><a className="button button-dark" href="#formulario">Quiero ser parte de la primera prueba</a><a className="text-link" href="#plataforma">Conocer el alcance inicial</a></div>
            
           </div>
           <div className="hero-visual"><DemoLoop demo="receive" /></div>
@@ -75,10 +75,10 @@ export default function Home() {
         <div className="shell field-story">
           <div className="field-story-copy">
             <h3>La información sigue el ritmo del equipo.</h3>
-            <p>Registra recepción, calidad y bajas desde tablet, junto a la flor. La operación continúa incluso cuando no hay conexión a internet.</p>
+            <p>Registra recepción, calidad y bajas desde tablet, junto a la flor. Diseñada para permitir registros temporales sin conexión durante la recepción.</p>
           </div>
           <figure className="story-photo story-photo-field"><img src="/rose-greenhouse-tablet-notes.png" alt="Trabajadora registrando información de rosas desde una tablet en un invernadero" /></figure>
-          <figure className="story-photo story-photo-postharvest"><img src="/rose-postharvest-offline-tablet.png" alt="Equipo clasificando rosas en poscosecha mientras registra la operación desde una tablet" /></figure>
+          <figure className="story-photo story-photo-postharvest"><img src="/rose-postharvest-offline-tablet.png" alt="Equipo clasificando rosas en poscosecha junto a una tablet" /></figure>
         </div>
         <div className="shell management-story">
           <div className="management-photos">
@@ -88,7 +88,7 @@ export default function Home() {
           <div className="management-story-copy">
             <h3>Una vista clara de cómo va la empresa.</h3>
             <p>Lo que el equipo registra se convierte en una lectura compartida de disponibilidad, pedidos, despachos y liquidaciones. Gerencia puede revisar la operación desde web o tablet, sin reunir reportes manuales.</p>
-            <a className="button button-dark" href="#formulario">Ver cómo participar en el piloto</a>
+            <a className="button button-dark" href="#formulario">Quiero ser parte de la primera prueba</a>
           </div>
         </div>
       </section>
@@ -97,9 +97,9 @@ export default function Home() {
 
       <section className="fit section"><div className="shell fit-grid"><div className="fit-photo"><img src="/rose-plantation-ecuador.jpg" alt="Rosas cultivadas en invernadero ecuatoriano" /><span>Fotografía de referencia</span></div><div className="fit-copy"><h2>Para postcosechas pequeñas que reciben flor propia <em>y de proveedores.</em></h2><p>Ideal para empresas que trabajan con proveedores y quieren dejar de depender de hojas dispersas, sin adoptar una solución sobredimensionada.</p><div className="fit-points"><span>Flor propia y de proveedores</span><span>Operación desde tablet</span><span>Gerencia desde web</span></div></div></div></section>
 
-      <section className="pilot section" id="piloto"><div className="shell pilot-card"><div className="pilot-content"><div><h2>Construyamos una solución ajustada a la <em>realidad operativa.</em></h2></div><div><p>El programa piloto parte de una conversación sobre la operación, para definir un primer alcance junto al equipo participante.</p><a className="button button-light" href="#formulario">Ver el estado del programa</a></div></div></div></section>
+      <section className="pilot section" id="primera-prueba"><div className="shell pilot-card"><div className="pilot-content"><div><h2>Buscamos 3 postcosechas para <em>probar Florvia desde el inicio.</em></h2></div><div><p>Queremos trabajar con equipos que quieran contar su realidad operativa y ayudarnos a definir la primera versión.</p><a className="button button-light" href="#formulario">Quiero ser parte de la primera prueba</a></div></div></div></section>
 
-      <section className="form-section section" id="formulario"><div className="shell form-layout"><div><h2>Cuéntanos sobre tu operación.</h2><p>Completa el formulario para que el equipo de Florvia conozca tu operación y pueda ponerse en contacto contigo sobre el programa piloto.</p></div><div className="form-embed-window"><iframe className="form-embed" src="https://docs.google.com/forms/d/e/1FAIpQLSeHGIPZAJh1wygezj4-FXD3XqHmSp-438pDV8uw_g-pi8YKcA/viewform?embedded=true" title="Formulario Florvia" loading="lazy">Cargando formulario…</iframe></div></div></section>
+      <section className="form-section section" id="formulario"><div className="shell form-layout"><div><h2>Cuéntanos sobre tu operación.</h2><p>Completa el formulario para que el equipo de Florvia conozca tu operación y pueda conversar contigo sobre ser parte de la primera prueba.</p></div><div className="form-embed-window"><iframe className="form-embed" src="https://docs.google.com/forms/d/e/1FAIpQLSeHGIPZAJh1wygezj4-FXD3XqHmSp-438pDV8uw_g-pi8YKcA/viewform?embedded=true" title="Formulario Florvia" loading="lazy">Cargando formulario…</iframe></div></div></section>
 
       <footer><div className="shell footer-grid"><a className="brand" href="#inicio"><Mark /><span>Florvia</span></a><p>Una plataforma en construcción para postcosechas florícolas pequeñas.</p><span>© {new Date().getFullYear()} Florvia</span></div></footer>
     </main>

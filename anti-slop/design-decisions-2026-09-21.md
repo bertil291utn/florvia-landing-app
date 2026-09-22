@@ -8,5 +8,6 @@ Lectura de diseño: landing editorial-operativa para postcosechas florícolas pe
 - **Espaciado:** Los espacios amplios separan cambios de contexto y los espacios densos se reservan para la información operativa dentro de cada módulo.
 - **Módulos:** Las demos muestran un flujo conceptual de cada módulo y se etiquetan como demostración de alcance, para no simular capturas ni funciones que todavía no existen.
 - **Motivo:** Un único pétalo rosado en el hero acompaña la identidad florícola y dirige la vista hacia el primer flujo; no se repite como efecto decorativo.
-- **Interacción:** La página usa solo anclas hacia secciones existentes y un formulario de demostración que explica con claridad que no transmite datos.
+- **Conversión:** Los CTAs de la primera prueba llevan al formulario existente porque la conversación es la única siguiente acción disponible; el cupo de tres postcosechas se comunica en su bloque para darle jerarquía sin crear una interfaz adicional.
+- **Expectativas:** La recepción se describe como diseñada para permitir registros temporales sin conexión, sin presentar esa funcionalidad como disponible antes de construirla.
 - **Movimiento:** Cada módulo usa un video mudo de 12 segundos en bucle para explicar un recorrido operativo concreto; el cursor y los cambios de estado muestran uso esperado, no animación decorativa.
